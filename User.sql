@@ -1,0 +1,20 @@
+create database Avtaar;
+use Avtaar;
+
+create table user(uid int NOT NULL auto_increment,username varchar(100) NOT NULL,gender ENUM('MALE','FEMALE'),email varchar(100) NOT NULL UNIQUE,primary key(uid));
+insert into user(uid,username,gender,email)values(1,'Amy','Female','amyy@gmail.com');
+insert into user(uid,username,gender,email)values(2,'Henry','Male','henry@gmail.com');
+insert into user(uid,username,gender,email)values(3,'Angela','Female','angela@gmail.com');
+insert into user(uid,username,gender,email)values(4,'Caroline','Female','caroline@gmail.com');
+insert into user(uid,username,gender,email)values(5,'Grace','Female','grace@gmail.com');
+insert into user(uid,username,gender,email)values(6,'Marcel','Male','marcel@gmail.com');
+insert into user(uid,username,gender,email)values(7,'Carsen','Male','carsen@gmail.com');
+insert into user(uid,username,gender,email)values(8,'Jasmine','Female','jasmine@gmail.com');
+insert into user(uid,username,gender,email)values(9,'Maria','Female','maria@gmail.com');
+insert into user(uid,username,gender,email)values(10,'Rachel','Female','rachel@gmail.com');
+insert into user(uid,username,gender,email)values(11,'Rayan','Male','rayan@gmail.com');
+insert into user(uid,username,gender,email)values(12,'Jairo','Male','jairo@gmail.com');
+insert into user(uid,username,gender,email)values(13,'Sophie','Female','sophie@gmail.com');
+insert into user(uid,username,gender,email)values(14,'Kareem','Male','kareem@gmail.com');
+insert into user(uid,username,gender,email)values(15,'Steven','Male','steven@gmail.com');
+select * from  user;
