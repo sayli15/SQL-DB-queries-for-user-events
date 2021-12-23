@@ -25,6 +25,7 @@ d) Query to insert into Events table
 e) Query to get all events for today -> Both Yearly and OneTime (For onetime, ongoing events should come)  
 f) Query to get all users for a list of uid (eg. - get all users whose uid is one of (1,2,6,8,9))  
 g) Query to get all events for a uid (eg. get all events for uid=1)  
+h) Query to get all events for the next 7 days.  
 
 ### Output Screenshot
 
@@ -33,7 +34,15 @@ g) Query to get all events for a uid (eg. get all events for uid=1)
 **Event Table:**  
 ![Event Table](https://github.com/sayli15/SQL-DB-queries-for-user-events/blob/main/Events.PNG)  
 **Result Screenshot:**  
-![Result](https://github.com/sayli15/SQL-DB-queries-for-user-events/blob/main/Result.PNG) 
+##### a) Query to get all events for today -> Both Yearly and OneTime  
+![Result1](https://github.com/sayli15/SQL-DB-queries-for-user-events/blob/main/5th.PNG)  
+##### b) Query to get all users for a list of uid (eg. - get all users whose uid is one of (1,2,6,8,9))    
+![Result1](https://github.com/sayli15/SQL-DB-queries-for-user-events/blob/main/6th.PNG)  
+##### c) Query to get all events for a uid (eg. get all events for uid=1)  
+![Result1](https://github.com/sayli15/SQL-DB-queries-for-user-events/blob/main/7th.PNG)  
+##### d) Query to get all events for the next 7 days  
+![Result1](https://github.com/sayli15/SQL-DB-queries-for-user-events/blob/main/8th.PNG)  
+
  
 ### Steps to run the project
 
